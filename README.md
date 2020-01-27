@@ -34,5 +34,6 @@
 To do this, first navigate to where the folder is. Right click on where the red dot is. select copy path. then paste into each of the strings that you need to replace. for example, if I copied "C:\Users\Kentaro Vadney's XPS\Desktop\Scrape filtered list of people"
 Then I paste that, replacing each string, and switch all of the '\'s to a '/' , then add the name of the file after a backslash at the end like: '/config.csv' for config,  '/input.csv' for input, and '/chromedriver.exe' for chrome driver (so the string looks like this in my case: "C:/Users/Kentaro Vadney's XPS/Desktop/Scrape Linkedin/Chrome Driver/chromedriver.exe"). I'm sorry for the inconvenience :(
 
+![](Images/REDdot.jpg)
 
-### 7) Run the python file. Your input.csv file should have all of the inputs. congrats!
+### 7) Run the python file. The program pauses a while so that Linkedin doesn't notice that you're running a bot on your account. We don't want to get ourselves banned or slowed! Your input.csv file should have all of the inputs. congrats!
