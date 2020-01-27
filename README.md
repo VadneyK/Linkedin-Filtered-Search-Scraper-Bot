@@ -29,4 +29,10 @@
 2)linkedin password 
 3)the link you just copied
 
-### 6) Run the python file. Your input.csv file should have all of the inputs. congrats!
+
+### 6) open the ScrapeLinkedinFilteredPage.py folder. search "replace with location" and replace the source file paths to your own source file paths. 
+To do this, first navigate to where the folder is. Right click on where the red dot is. select copy path. then paste into each of the strings that you need to replace. for example, if I copied "C:\Users\Kentaro Vadney's XPS\Desktop\Scrape filtered list of people"
+Then I paste that, replacing each string, and switch all of the '\'s to a '/' , then add the name of the file after a backslash at the end like: '/config.csv' for config,  '/input.csv' for input, and '/chromedriver.exe' for chrome driver (so the string looks like this in my case: "C:/Users/Kentaro Vadney's XPS/Desktop/Scrape Linkedin/Chrome Driver/chromedriver.exe"). I'm sorry for the inconvenience :(
+
+
+### 7) Run the python file. Your input.csv file should have all of the inputs. congrats!
