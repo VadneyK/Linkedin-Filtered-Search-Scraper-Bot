@@ -5,7 +5,8 @@ import csv
 
 #Creates browser, a new Chrome webdriver instance. Path specified to where Chrome driveris installed.
 #Download Webdriver as outlined in the README text file
-#replace the 'executable_path' with the path to where you put your Chrome driver
+
+#replace with location of your Chrome driver
 browser = webdriver.Chrome(executable_path="C:/Users/Kentaro Vadney's XPS/Desktop/Scrape Linkedin/Chrome Driver/chromedriver.exe")
 
 #file points to file object created from calling open on config.txt
