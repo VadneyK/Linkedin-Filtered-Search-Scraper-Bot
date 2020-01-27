@@ -5,6 +5,10 @@
  is simple so that the people can see how a crawler works. This crawler was made
  to be very simple and easy to use.
  
+ There's some extra code commented out using """ since it got complicated and realized
+ I didn't need this part of the code. However, I included it in case someone wants to
+ mess around with the code.
+ 
  Since linkedin occasionally updates it's website and changes tags, this crawler
  may not work at some point. If the crawler doesn't work, please message me.
  
