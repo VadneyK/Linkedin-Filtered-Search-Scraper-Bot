@@ -4,9 +4,12 @@ from bs4 import BeautifulSoup
 import csv
 
 #Creates browser, a new Chrome webdriver instance. Path specified to where Chrome driveris installed.
+#Download Webdriver as outlined in the README text file
+#replace the 'executable_path' with the path to where you put your Chrome driver
 browser = webdriver.Chrome(executable_path="C:/Users/Kentaro Vadney's XPS/Desktop/Scrape Linkedin/Chrome Driver/chromedriver.exe")
 
 #file points to file object created from calling open on config.txt
+#replace with location of your config.txt file location
 file = open("C:/Users/Kentaro Vadney's XPS/Desktop/Scrape filtered list of people/config.txt")
 
 #lines points to the file called on my readlines
@@ -187,6 +190,8 @@ def getNewProfileIDs(soup, profilesQueued):
 visitedProfiles = []
 profilesQueued = []
 
+#replace with location of your input.csv file
+
 CsvFile = open("C:/Users/Kentaro Vadney's XPS/Desktop/Scrape filtered list of people/input.csv", 'w', newline='')
 # defining new variable passing two parameters
 writer = csv.writer(CsvFile)
@@ -213,6 +218,7 @@ while profilesQueued:
     scrapeProfile()
 
     # Add the ID to the visitedUsersFile
+    #replace with location to your visitedUsersFile.csv location
     with open("C:/Users/Kentaro Vadney's XPS/Desktop/Scrape filtered list of people/VisitedUsers.csv", 'a') as visitedUsersFile:
         visitedUsersFile.write(str(visitingProfileID)+'\n')
     visitedUsersFile.close()
