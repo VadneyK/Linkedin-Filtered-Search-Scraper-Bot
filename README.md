@@ -12,11 +12,11 @@
 
 ### 2) go to the search bar and click people, like this:
 
-![](Images/Save)
+![](Images/Save.PNG)
 
 ### 3) search using filters so that your output looks like this:
 
-![](Images/likeThis)
+![](Images/likeThis.PNG)
 
 ### 4) copy the link of that web page
 
